@@ -19,12 +19,13 @@
     display: flex;
     align-items:center;
 }
-.menu{
+.menu-button{
     height: 25px;
     margin-left:20px;
     margin-right:20px;
     cursor:pointer;
 }
+
 .youtube-logo{
     height: 20px;
     cursor:pointer;
