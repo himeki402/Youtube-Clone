@@ -1,6 +1,7 @@
 
 .thumbnail{
     width :100%; 
+    border-radius: 5%;
 }
 .video-preview{
     cursor: pointer;
@@ -21,6 +22,7 @@
     .video-grid {
       grid-template-columns: 1fr 1fr;
     }
+    
   }
 @media (min-width:751px) and (max-width:999px) {
     .video-grid {

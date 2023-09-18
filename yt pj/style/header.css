@@ -19,16 +19,20 @@
     display: flex;
     align-items:center;
 }
+.headerButton-containner :hover{
+    background-color: lightgray;
+}
 .menu-button{
-    height: 25px;
-    margin-left:20px;
-    margin-right:20px;
+    height: 24px;
+    margin-left:24px;
+    margin-right:24px;
     cursor:pointer;
 }
 
 .youtube-logo{
     height: 20px;
     cursor:pointer;
+    padding-left: 2px;
 }
 .center{
     flex:1;

@@ -11,3 +11,14 @@ body{
     background-color: rgb(256, 248, 250);
     font-family: Roboto,Arial;
 }
+hr{
+    width: 95%;
+    height: 1px;
+    border: 0;
+    background-color: #ccc;
+}
+@media (min-width: 1000px) {
+    body{
+        padding-left: 240px;
+    }
+  } 
