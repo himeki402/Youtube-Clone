@@ -17,8 +17,14 @@ hr{
     border: 0;
     background-color: #ccc;
 }
-@media (min-width: 1000px) {
+/* @media (min-width: 1000px) {
     body{
         padding-left: 240px;
     }
-  } 
+  }  */
+  /* @media  (max-width:499px) {
+    .body{
+        padding-left: 18px;
+      }
+    
+  }  */

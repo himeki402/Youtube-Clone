@@ -19,8 +19,14 @@
     display: flex;
     align-items:center;
 }
-.headerButton-containner :hover{
-    background-color: lightgray;
+.headerButton-containner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 40px;
+    height: 40px;
+    background-color: black
 }
 .menu-button{
     height: 24px;
