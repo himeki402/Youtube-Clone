@@ -18,6 +18,7 @@
     cursor: pointer;
 }.sidebar-link:hover{
     background-color: rgb(234, 234, 234);
+    border-radius: 5px;
 }
 .sidebar-link{
     font-size: 11px;
@@ -40,13 +41,27 @@
     position: fixed;
     left: 0;
     width: 216px;
-    height: 100vh;
+    height: 92vh;
     padding-top: 5px;
     top: 55px;
     bottom:0px;
     background-color: white;
     z-index: 999;
     padding-top: 5px;
+    overflow: auto;
+}
+.sidebar-large::-webkit-scrollbar{
+    width: 0px;
+}
+.sidebar-large::-webkit-scrollbar-thumb{
+    background-color: transparent;
+    border-radius: 1rem;
+}
+aside:hover .sidebar-large::-webkit-scrollbar{
+    width: 0.5rem;
+}
+aside:hover .sidebar-large::-webkit-scrollbar-thumb{
+    background-color: #888;
 }
 .sidebar-large .sidebar-link{
     display: flex;
@@ -70,7 +85,7 @@
     width: 24px;
     height: 24px;
     border-radius: 50%;
-    overflow: clip;
+    
 }
 
 

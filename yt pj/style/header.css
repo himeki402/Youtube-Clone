@@ -19,20 +19,27 @@
     display: flex;
     align-items:center;
 }
-.headerButton-containner{
+
+.menu-button{
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
+    cursor: pointer;
     width: 40px;
-    height: 40px;
-    background-color: black
+    height:40px;
+    background-color: white;
+    border:none;
+    border-radius: 50%;
+    margin-left: 15px;
+    margin-right: 12px;
 }
-.menu-button{
+.menu-button:hover{
+    background-color: rgb(243, 243, 243);
+}
+.menu-icon{
+    width: 24px;
     height: 24px;
-    margin-left:24px;
-    margin-right:24px;
-    cursor:pointer;
 }
 
 .youtube-logo{
@@ -66,6 +73,7 @@
     border: 1px solid rgb(203, 203, 203);;
     margin-left:-1px;
     margin-right:8px;
+    border-radius: 0 20px 20px 0;
 }
 .search-icon{
     height:25px;
@@ -97,6 +105,7 @@
     transition: opacity 0.2s;
     pointer-events:none;
     white-space: nowrap;
+    z-index: 101;
 }
 .search-button:hover .tooltip,
 .voice-button:hover .tooltip,
@@ -108,7 +117,7 @@
 .search-bar{
     font-size: 16px;
     height: 40px;
-    padding-left: 12px;
+    padding-left: 14px;
     display: flex;
     flex:1;
     justify-content:center;
@@ -117,6 +126,7 @@
     border:1px solid rgb(203, 203, 203);
     box-shadow:inset 1px 2px 3px rgba(0 ,0 ,0, 0,05);
     width:0;
+    border-radius: 20px 0 0 20px;
 }
 .search-bar::placeholder{
     font-size:16px;

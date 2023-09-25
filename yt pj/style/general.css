@@ -5,11 +5,11 @@ p{
 body{
     /*style below will be inherited*/
     height: 3000px;
-    padding-top:80px;
+    padding-top:125px;
     padding-left: 96px;
     padding-right: 24px;
-    background-color: rgb(256, 248, 250);
-    font-family: Roboto,Arial;
+    background-color: white;
+    font-family: Roboto ,Arial;
 }
 hr{
     width: 95%;
